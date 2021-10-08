@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<style>
+    .l1 {
+        text-align: center;
+        width: 200px;
+        height: 30px;
+        background-color: blanchedalmond;
+    }
+    .l2 {
+        width: 200px;
+        height: 40px;
+        background-color: gray;
+    }
+    fieldset {
+        text-align: center;
+    }
+</style>
+<body>
+    <fieldset>
+        <label>Principle</label>
+        <div>
+            <input class="l1" type="text" id="principle" placeholder="Principle">
+        </div>
+        <label>Years</label>
+        <div>
+            <input class="l1" type="text" id="years" placeholder="Years">
+        </div>
+        <label>Rate of Interest(%)</label>
+        <div>
+            <input class="l1" type="text" id="roi" placeholder="Rate of the interest(%)">
+        </div>
+        <div>
+            <p><button class="l2" id="calculate_button" onclick="countSI()">Calculate</button></p>
+        </div>
+        <div>
+            <div id="outputdiv">
+                <label>Simple Interest is : <span id="outputspan"></span></label>
+            </div>
+            <script type="text/javascript" src="myscript3.js"></script>
+    </fieldset>
+</body>
+
+</html>
